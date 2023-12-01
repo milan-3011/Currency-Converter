@@ -1,0 +1,26 @@
+.first{
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.input{
+    height: 20px;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
+}
+.select{
+    padding: 8px;
+    font-size: larger;
+    border-radius: 20px;
+    border: 2px black solid;
+}
+
+.text th{
+    color: blue;
+    font-size: larger;
+}

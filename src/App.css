@@ -1,0 +1,40 @@
+body{
+    background-image: url("https://wallpapers.com/images/hd/stock-market-blue-gridlines-pd5zksxr07t7a4xu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.App{
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 99%;
+    margin-top: 10%;
+    position: relative;
+}
+
+.swap{
+    padding: 10px 20px;
+    position: absolute;
+    top: 34.5%;
+    left: 47%;
+    background-color: rgb(3, 3, 184);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.swap:active, .submit:active{
+    background-color: rgb(2, 2, 141);
+}
+
+.submit{
+    background-color: rgb(3, 3, 184);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: larger;
+}
